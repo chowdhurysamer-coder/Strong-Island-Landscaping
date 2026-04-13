@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strong Island Landscaping &amp; Irrigation — Suffolk County, NY</title>
+  <meta name="description" content="Strong Island Landscaping: full-service irrigation, lawn maintenance, clean-ups, mulch, snow removal and 24-hour emergency service across Suffolk County, NY. Licensed &amp; insured." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="landscaping.css" />
+</head>
+<body class="paper">
+
+  <!-- ================================================================
+       VERTICAL SIDE RAIL (instead of a horizontal nav bar)
+  ================================================================= -->
+  <aside class="rail" aria-label="Primary">
+    <a class="rail-mono" href="#top" aria-label="Strong Island Landscaping home">
+      <span class="rail-mono-big">SI</span>
+      <span class="rail-mono-sub">Landscaping &amp; Irrigation</span>
+    </a>
+    <nav class="rail-nav">
+      <a href="#top"><span>01</span>Field</a>
+      <a href="#services"><span>02</span>Services</a>
+      <a href="#story"><span>03</span>Story</a>
+      <a href="#voices"><span>04</span>Voices</a>
+      <a href="#reach"><span>05</span>Reach</a>
+    </nav>
+    <a class="rail-call" href="tel:+16316394510">
+      <span class="rail-call-label">24&nbsp;hr line</span>
+      <span class="rail-call-num">631&middot;639&middot;4510</span>
+    </a>
+  </aside>
+
+  <main class="canvas">
+
+    <!-- ============================================================
+         HERO — magazine style: tag strip, huge mixed headline,
+         angled polaroid image, sidebar "stats journal"
+    ============================================================= -->
+    <section class="hero" id="top">
+
+      <div class="hero-tags">
+        <span>SUFFOLK CO · NY</span>
+        <span class="dot">●</span>
+        <span>EST. ON THE ISLAND</span>
+        <span class="dot">●</span>
+        <span>LICENSED &amp; INSURED</span>
+      </div>
+
+      <h1 class="display">
+        Your yard,<br/>
+        <em>in better</em><br/>
+        hands.
+      </h1>
+
+      <div class="hero-body">
+        <p class="hero-lead">
+          Strong Island is a full-service irrigation and landscaping crew
+          run by <strong>Chris &amp; Nykki</strong>. Start-ups, mid-season
+          service, winterization, clean-ups, mulch, top soil, leveling,
+          snow removal &mdash; even holiday lights. If it happens in your
+          yard, we handle it.
+        </p>
+
+        <div class="hero-cta">
+          <a class="leaf-btn" href="tel:+16316394510">
+            Call the 24&thinsp;hr line
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M5 3h4l2 5-3 2a12 12 0 006 6l2-3 5 2v4a2 2 0 01-2 2A17 17 0 013 5a2 2 0 012-2z"/></svg>
+          </a>
+          <a class="ghost-btn" href="#services">See the whole menu &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Tilted polaroid with the trailer image
+           (image file should live at images/strong-island-trailer.jpg) -->
+      <figure class="polaroid polaroid-hero">
+        <div class="polaroid-img">
+          <img
+            src="images/strong-island-trailer.jpg"
+            alt="Strong Island Irrigation service trailer with green hand-painted lettering"
+            loading="eager"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <!-- SVG fallback so the page always renders -->
+          <div class="polaroid-fallback" aria-hidden="true">
+            <svg viewBox="0 0 600 520" role="img" aria-label="Strong Island Irrigation trailer illustration">
+              <defs>
+                <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="#cde2d0"/>
+                  <stop offset="1" stop-color="#f3efe3"/>
+                </linearGradient>
+                <linearGradient id="trailer" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="#141414"/>
+                  <stop offset="1" stop-color="#0a0a0a"/>
+                </linearGradient>
+              </defs>
+              <rect width="600" height="520" fill="url(#sky)"/>
+              <circle cx="500" cy="80" r="42" fill="#f5d977" opacity=".75"/>
+              <path d="M0 430 Q150 400 300 430 T600 430 V520 H0Z" fill="#2e5a3a"/>
+              <g transform="translate(60 180)">
+                <rect x="0" y="20" width="480" height="220" rx="10" fill="url(#trailer)"/>
+                <rect x="10" y="30" width="460" height="200" rx="6" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+                <text x="240" y="92" text-anchor="middle" font-family="DM Serif Display, serif" font-size="44" fill="#6bbf59" font-style="italic">Strong Island</text>
+                <text x="240" y="138" text-anchor="middle" font-family="DM Serif Display, serif" font-size="40" fill="#6bbf59" font-style="italic">Irrigation</text>
+                <text x="240" y="170" text-anchor="middle" font-family="Manrope, sans-serif" font-size="14" fill="#b0e3a3" letter-spacing="2">START-UPS · MID-SEASON · WINTERIZATION</text>
+                <text x="240" y="208" text-anchor="middle" font-family="DM Serif Display, serif" font-size="34" fill="#6bbf59">631 · 639 · 4510</text>
+                <circle cx="120" cy="270" r="32" fill="#2a2a2a" stroke="#d9d9d9" stroke-width="6"/>
+                <circle cx="120" cy="270" r="10" fill="#6e6e6e"/>
+                <circle cx="360" cy="270" r="32" fill="#2a2a2a" stroke="#d9d9d9" stroke-width="6"/>
+                <circle cx="360" cy="270" r="10" fill="#6e6e6e"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <figcaption>
+          <span class="scribble">&ldquo;The rig, ready to roll.&rdquo;</span>
+          <span class="date">&mdash; field note, spring</span>
+        </figcaption>
+      </figure>
+
+      <!-- Stat journal: a little sticker-style box in the corner -->
+      <aside class="stat-journal">
+        <div class="stat-head">The Scorecard</div>
+        <ul>
+          <li><strong>5.0</strong><span>Google rating</span></li>
+          <li><strong>81</strong><span>honest reviews</span></li>
+          <li><strong>24/7</strong><span>emergency line</span></li>
+          <li><strong>Res &amp; Com</strong><span>residential + commercial</span></li>
+        </ul>
+      </aside>
+
+    </section>
+
+    <!-- soft divider -->
+    <div class="divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 40" preserveAspectRatio="none">
+        <path d="M0 20 C 200 0, 400 40, 600 20 S 1000 0, 1200 20" stroke="#3b5d33" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="2 10"/>
+      </svg>
+    </div>
+
+    <!-- ============================================================
+         SERVICES — presented as a MENU, not a card grid
+         (rows with ornament + name + dot leaders + short line)
+    ============================================================= -->
+    <section class="services" id="services">
+      <header class="section-head">
+        <span class="chapter">Ch. 02</span>
+        <h2>The whole&nbsp;<em>menu</em>.</h2>
+        <p>
+          Fifteen years of dirt under our fingernails. Here&rsquo;s what we do,
+          written plain. No packages, no upsells &mdash; just the list.
+        </p>
+      </header>
+
+      <ol class="menu">
+        <li>
+          <span class="m-num">i.</span>
+          <span class="m-name">Full-Service Irrigation</span>
+          <span class="m-dots"></span>
+          <span class="m-note">start-ups, mid-season, winterization, repairs</span>
+        </li>
+        <li>
+          <span class="m-num">ii.</span>
+          <span class="m-name">Lawn Maintenance</span>
+          <span class="m-dots"></span>
+          <span class="m-note">weekly cuts, edging, blow-downs</span>
+        </li>
+        <li>
+          <span class="m-num">iii.</span>
+          <span class="m-name">Spring &amp; Fall Clean-Ups</span>
+          <span class="m-dots"></span>
+          <span class="m-note">every last leaf, corner to corner</span>
+        </li>
+        <li>
+          <span class="m-num">iv.</span>
+          <span class="m-name">Mulch, Top Soil &amp; Seed</span>
+          <span class="m-dots"></span>
+          <span class="m-note">fresh beds, fresh lawn, fair rates</span>
+        </li>
+        <li>
+          <span class="m-num">v.</span>
+          <span class="m-name">Leveling</span>
+          <span class="m-dots"></span>
+          <span class="m-note">bumps, ruts, sunken sod &mdash; flattened</span>
+        </li>
+        <li>
+          <span class="m-num">vi.</span>
+          <span class="m-name">Gutter Cleaning</span>
+          <span class="m-dots"></span>
+          <span class="m-note">two-story homes, garages, all of it</span>
+        </li>
+        <li>
+          <span class="m-num">vii.</span>
+          <span class="m-name">Snow Removal</span>
+          <span class="m-dots"></span>
+          <span class="m-note">walks, drives, whole commercial lots</span>
+        </li>
+        <li>
+          <span class="m-num">viii.</span>
+          <span class="m-name">Holiday Lights</span>
+          <span class="m-dots"></span>
+          <span class="m-note">installed, maintained, taken down</span>
+        </li>
+      </ol>
+
+      <p class="footnote">
+        Don&rsquo;t see what you need? <a href="tel:+16316394510">Call and ask</a>.
+        If it lives outside, we probably handle it.
+      </p>
+    </section>
+
+    <!-- ============================================================
+         STORY — two column: big pull quote + paragraph
+    ============================================================= -->
+    <section class="story" id="story">
+      <span class="chapter">Ch. 03</span>
+
+      <div class="story-grid">
+        <blockquote class="pullquote">
+          &ldquo;We love what we do &mdash; and when the customer is happy,
+          <em>we are</em>.&rdquo;
+          <cite>&mdash; Chris &amp; Nykki, owners</cite>
+        </blockquote>
+
+        <div class="story-copy">
+          <h2>A husband-and-wife crew<br/>that still picks up the phone.</h2>
+          <p>
+            Strong Island started as a small crew of two and grew by word of
+            mouth. No call center, no gatekeepers &mdash; call the number on
+            the trailer and you&rsquo;ll get Nykki on the line or Chris on
+            the property with a clipboard and a pair of boots.
+          </p>
+          <p>
+            We serve Suffolk County and the towns nearby. We treat every
+            yard like it&rsquo;s our own &mdash; meticulous on clean-ups,
+            honest about what needs fixing, fair on price.
+          </p>
+
+          <dl class="story-facts">
+            <div>
+              <dt>Owners</dt><dd>Chris &amp; Nykki</dd>
+            </div>
+            <div>
+              <dt>Area</dt><dd>Suffolk County &amp; nearby</dd>
+            </div>
+            <div>
+              <dt>Status</dt><dd>Licensed &amp; Insured</dd>
+            </div>
+            <div>
+              <dt>Hours</dt><dd>Open 24 hours, 7 days</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         VOICES — Google reviews as overlapping polaroids
+    ============================================================= -->
+    <section class="voices" id="voices">
+      <header class="section-head center">
+        <span class="chapter">Ch. 04</span>
+        <h2>Voices from the <em>yard</em>.</h2>
+        <p class="stars-line">
+          <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          <strong>5.0</strong> &middot; 81 Google reviews
+        </p>
+      </header>
+
+      <div class="voices-wall">
+
+        <figure class="note note-a">
+          <p>
+            &ldquo;Hands down the best landscapers I have ever used, and I have
+            hired many. Chris and his team are fast, professional, and
+            best of all &mdash; reliable.&rdquo;
+          </p>
+          <figcaption>
+            <span class="sig">Marie deSoto</span>
+            <span class="meta">Whole-yard clean-up &middot; weekly maintenance</span>
+          </figcaption>
+        </figure>
+
+        <figure class="note note-b">
+          <p>
+            &ldquo;If you are looking for lawn care in the Suffolk area and
+            having a hard time finding someone you can trust &mdash; scroll
+            up and call this business. You can thank me later.&rdquo;
+          </p>
+          <figcaption>
+            <span class="sig">Christopher Boehme</span>
+            <span class="meta">Local Guide &middot; Google</span>
+          </figcaption>
+        </figure>
+
+        <figure class="note note-c">
+          <p>
+            &ldquo;I have to honestly say this is the happiest I have felt
+            about my yard in years. After two years of surgeries I
+            couldn&rsquo;t take it anymore and called Strong Island.&rdquo;
+          </p>
+          <figcaption>
+            <span class="sig">Ralphie Willems</span>
+            <span class="meta">Full yard rescue</span>
+          </figcaption>
+        </figure>
+
+        <figure class="note note-d">
+          <p>
+            &ldquo;Chris came the same day in the rain and gave us a fair
+            price. Showed up as scheduled &mdash; no follow-up calls
+            needed. That&rsquo;s rare.&rdquo;
+          </p>
+          <figcaption>
+            <span class="sig">Dean Currao</span>
+            <span class="meta">One-acre clean-up</span>
+          </figcaption>
+        </figure>
+
+        <figure class="note note-e">
+          <p>
+            &ldquo;Chris went above and beyond on our new home.
+            Honest about the sprinkler system &mdash; he didn&rsquo;t try
+            to sell me on anything I didn&rsquo;t need.&rdquo;
+          </p>
+          <figcaption>
+            <span class="sig">C.P.</span>
+            <span class="meta">Sprinkler diagnostic</span>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         REACH — a postcard-style contact card (NOT an embedded map)
+    ============================================================= -->
+    <section class="reach" id="reach">
+      <div class="postcard">
+
+        <div class="postcard-left">
+          <span class="chapter light">Ch. 05</span>
+          <h2>Drop us a line.</h2>
+          <p>
+            We answer the phone any hour of any day. Tell us what the yard
+            needs and we&rsquo;ll roll the trailer over.
+          </p>
+
+          <a class="big-call" href="tel:+16316394510">
+            <span class="big-call-label">Call the 24 hr line</span>
+            <span class="big-call-num">(631) 639&ndash;4510</span>
+          </a>
+
+          <ul class="hours">
+            <li><span>Mon &ndash; Sun</span><em>Open 24 hours</em></li>
+            <li><span>Emergency repairs</span><em>Any time, any weather</em></li>
+          </ul>
+        </div>
+
+        <div class="postcard-right">
+          <div class="stamp">
+            <div class="stamp-inner">
+              <span class="stamp-top">SUFFOLK CO</span>
+              <span class="stamp-mid">NY</span>
+              <span class="stamp-bot">LIC &amp; INS</span>
+            </div>
+          </div>
+
+          <div class="postmark">
+            <span>Strong Island Landscaping</span>
+            <span>Suffolk County, NY</span>
+            <span>Residential &middot; Commercial</span>
+          </div>
+
+          <div class="address-lines">
+            <div></div><div></div><div></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER — small, colophon-style
+    ============================================================= -->
+    <footer class="colophon">
+      <div class="colophon-inner">
+        <div class="col-mark">
+          <span class="col-mono">SI</span>
+          <div>
+            <strong>Strong Island Landscaping</strong>
+            <span>Full service yard &amp; irrigation &middot; Suffolk Co, NY</span>
+          </div>
+        </div>
+        <div class="col-meta">
+          <span>&copy; <span id="year"></span> Strong Island Landscaping</span>
+          <span>Licensed &amp; Insured</span>
+          <span><a href="index.html">&larr; Long Beach Plumbing &amp; Heating</a></span>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
